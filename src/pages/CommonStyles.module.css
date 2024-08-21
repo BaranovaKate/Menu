@@ -1,0 +1,30 @@
+.container {
+  background-color: white;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

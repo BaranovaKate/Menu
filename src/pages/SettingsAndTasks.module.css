@@ -1,0 +1,23 @@
+@import "./CommonStyles.module.css";
+
+.container li::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container li:first-child::before {
+  background-image: url("/src/icons/warehouse.png");
+}
+
+.container li:nth-child(2)::before {
+  background-image: url("/src/icons/factory.png");
+}
+
+.container li:hover {
+  background-color: #f2f2f2;
+}

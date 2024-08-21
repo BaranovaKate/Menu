@@ -1,0 +1,28 @@
+@import "./CommonStyles.module.css";
+
+.container li::before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container li:first-child::before {
+  background-image: url("/src/icons/diplom.png");
+}
+
+.container li:nth-child(2)::before {
+  background-image: url("/src/icons/gear.png");
+}
+
+.container li:last-child::before {
+  background-image: url("/src/icons/info.png");
+}
+
+.container li:first-child:hover,
+.container li:nth-child(2):hover {
+  background-color: #f2f2f2;
+}
